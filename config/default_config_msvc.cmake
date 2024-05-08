@@ -446,6 +446,7 @@ set(BENCHMARK_SOURCES
 	${PROJECT_SOURCE_DIR}/benchmarks/hmac.cc
 	${PROJECT_SOURCE_DIR}/benchmarks/rsapss.cc
 	${PROJECT_SOURCE_DIR}/benchmarks/kyber.cc
+	${PROJECT_SOURCE_DIR}/benchmarks/micro.cc
 )
 set(VALE_SOURCES_osx
 	${PROJECT_SOURCE_DIR}/vale/src/cpuid-x86_64-darwin.S
